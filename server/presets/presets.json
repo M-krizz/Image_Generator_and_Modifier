@@ -1,0 +1,280 @@
+{
+  "categories": {
+    "frames": {
+      "label": "Frames",
+      "scene": "a beautifully decorated wall or shelf displaying this photo frame",
+      "placement": "mounted on a wall or placed on an elegant surface",
+      "camera": "medium shot, straight-on perspective",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve the frame design, color, and material exactly",
+        "show the frame in a realistic home environment",
+        "add subtle wall texture or shelf detail for context"
+      ]
+    },
+    "fridge_magnet": {
+      "label": "Fridge Magnet",
+      "scene": "a clean modern refrigerator door with this magnet attached",
+      "placement": "attached to a stainless steel or white refrigerator surface",
+      "camera": "close-up, slightly angled",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve the magnet design, colors, and details exactly",
+        "show realistic magnetic attachment on a fridge surface",
+        "include subtle kitchen background elements"
+      ]
+    },
+    "idol": {
+      "label": "Idol",
+      "scene": "this idol or figurine displayed in a sacred or decorative setting",
+      "placement": "placed on an ornate surface, altar, or display shelf",
+      "camera": "medium close-up, slightly low angle for reverence",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve every detail of the idol — shape, material, color, carvings",
+        "add appropriate ambient elements like flowers, diyas, or fabric",
+        "create a sense of devotion or artistic appreciation"
+      ]
+    },
+    "necklace_sets": {
+      "label": "Necklace Sets",
+      "scene": "a portrait showing this necklace set being worn elegantly",
+      "placement": "draped around the neck, with matching earrings visible",
+      "camera": "portrait, upper body framing",
+      "requiresModel": true,
+      "focusRules": [
+        "preserve the necklace design, stones, metalwork, and finish exactly",
+        "show natural drape and fall of the necklace on the body",
+        "ensure earrings complement the necklace naturally",
+        "realistic skin texture and natural shadows from the jewelry"
+      ]
+    },
+    "rings": {
+      "label": "Rings",
+      "scene": "a close-up of a hand wearing this ring",
+      "placement": "fitted on the ring finger in a natural, graceful pose",
+      "camera": "macro photography, shallow depth of field",
+      "requiresModel": true,
+      "focusRules": [
+        "preserve the ring design, stones, metal, and engravings exactly",
+        "show the ring fitting naturally on the finger",
+        "realistic skin texture with subtle veins and natural shadows",
+        "the hand should be in a relaxed, elegant pose"
+      ]
+    },
+    "wooden_craft": {
+      "label": "Wooden Craft",
+      "scene": "this wooden craft piece displayed in a warm interior setting",
+      "placement": "placed on a wooden table, shelf, or mantelpiece",
+      "camera": "medium shot, warm composition",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve the wood grain, carving details, and finish exactly",
+        "complement with natural materials in the scene",
+        "warm lighting to enhance wood tones"
+      ]
+    },
+    "coasters": {
+      "label": "Coasters",
+      "scene": "these coasters arranged on a stylish table with beverages",
+      "placement": "laid flat on a table surface, one with a glass or cup on it",
+      "camera": "overhead or slightly angled tabletop shot",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve the coaster design, pattern, material, and color exactly",
+        "show practical use with a beverage for lifestyle context",
+        "complement with table setting elements"
+      ]
+    },
+    "utility": {
+      "label": "Utility",
+      "scene": "this utility product shown in its natural use environment",
+      "placement": "positioned in a realistic home or kitchen setting during use",
+      "camera": "medium shot, lifestyle perspective",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve the product design, material, and features exactly",
+        "show the product in a realistic usage context",
+        "clean, well-organized environment"
+      ]
+    },
+    "serveware": {
+      "label": "Serveware",
+      "scene": "this serveware piece presented on an elegant dining table",
+      "placement": "centered on a dining table, optionally with food or garnish",
+      "camera": "slightly elevated angle, dining perspective",
+      "requiresModel": false,
+      "focusRules": [
+        "preserve the serveware design, glaze, pattern, and material exactly",
+        "show with complementary table setting — napkins, cutlery, flowers",
+        "appetizing presentation if food is included"
+      ]
+    }
+  },
+  "styles": {
+    "cultural": {
+      "label": "Cultural / Traditional",
+      "lighting": "warm, golden ambient lighting with soft natural glow",
+      "background": "rich traditional setting with ethnic textures, fabrics, and heritage elements",
+      "mood": "warm, authentic, rooted in cultural heritage",
+      "colorPalette": "deep reds, golds, earthy tones, warm browns"
+    },
+    "modern": {
+      "label": "Modern / Contemporary",
+      "lighting": "clean, bright, even studio lighting",
+      "background": "sleek contemporary interior with clean lines and neutral tones",
+      "mood": "sophisticated, clean, forward-looking",
+      "colorPalette": "whites, grays, black accents, cool neutrals"
+    },
+    "luxury": {
+      "label": "Luxury / Premium",
+      "lighting": "dramatic studio lighting with soft highlights and deep shadows",
+      "background": "opulent setting with marble, velvet, or dark elegant surfaces",
+      "mood": "exclusive, high-end, aspirational",
+      "colorPalette": "deep blacks, golds, champagne, rich jewel tones"
+    },
+    "minimalist": {
+      "label": "Minimalist",
+      "lighting": "soft, diffused, shadowless lighting",
+      "background": "clean solid background or very subtle gradient, no distractions",
+      "mood": "pure, focused, zen-like simplicity",
+      "colorPalette": "white, off-white, light gray, muted tones"
+    },
+    "lifestyle": {
+      "label": "Lifestyle / Casual",
+      "lighting": "natural window light or outdoor golden hour lighting",
+      "background": "casual home or outdoor setting, lived-in and relatable",
+      "mood": "approachable, warm, everyday elegance",
+      "colorPalette": "natural greens, warm whites, soft earth tones"
+    }
+  },
+  "modelTypes": {
+    "female": {
+      "label": "Female",
+      "description": "an elegant female with well-manicured, natural-looking features",
+      "skinDetail": "smooth, realistic skin with natural texture and subtle shadows"
+    },
+    "male": {
+      "label": "Male",
+      "description": "a well-groomed male with natural, clean features",
+      "skinDetail": "natural masculine skin texture with realistic detail"
+    }
+  },
+  "uiOptions": {
+    "categories": {
+      "rings": {
+        "core": {
+          "placement": ["ring finger", "index finger", "stacked"],
+          "pose": ["relaxed", "holding object", "gesture"]
+        },
+        "advanced": {
+          "skinTone": ["fair", "medium", "deep"],
+          "nailStyle": ["natural", "polished", "matte"],
+          "background": ["neutral gradient", "luxury dark", "soft pastel"],
+          "focusStyle": ["extreme macro", "balanced focus"]
+        }
+      },
+      "necklace_sets": {
+        "core": {
+          "placement": ["collarbone", "deep neckline", "layered"],
+          "pose": ["front", "angled", "close-up"]
+        },
+        "advanced": {
+          "necklineStyle": ["v-neck", "round", "off-shoulder"],
+          "hairStyle": ["open hair", "tied back", "side swept"],
+          "jewelryHighlight": ["pendant focus", "full set focus"]
+        }
+      },
+      "frames": {
+        "core": {
+          "placement": ["wall mounted", "shelf display", "desk placement"],
+          "environment": ["living room", "bedroom", "office"],
+          "angle": ["straight-on", "slight angle"]
+        },
+        "advanced": {
+          "wallTexture": ["concrete", "painted", "brick", "wood"],
+          "decorElements": ["plant", "books", "minimal", "none"]
+        }
+      },
+      "fridge_magnet": {
+        "core": {
+          "placement": ["center door", "corner", "clustered magnets"],
+          "fridgeType": ["stainless steel", "white matte", "colored modern"]
+        },
+        "advanced": {
+          "kitchenStyle": ["modern", "rustic", "minimal"],
+          "backgroundBlur": ["strong blur", "soft blur"]
+        }
+      },
+      "idol": {
+        "core": {
+          "placement": ["center altar", "table display", "shelf"],
+          "environment": ["spiritual setup", "minimal decor", "traditional setup"]
+        },
+        "advanced": {
+          "lighting": ["diya glow", "soft warm", "dramatic rim"],
+          "elements": ["flowers", "incense", "none"]
+        }
+      },
+      "wooden_craft": {
+        "core": {
+          "environment": ["living room", "rustic setup", "studio minimal"],
+          "surface": ["wooden table", "marble", "fabric cloth"],
+          "placement": ["centerpiece", "corner", "cluster"]
+        },
+        "advanced": {
+          "textureEmphasis": ["strong grain highlight", "smooth finish"]
+        }
+      },
+      "coasters": {
+        "core": {
+          "arrangement": ["single focus", "set arrangement", "stacked"],
+          "usageContext": ["coffee", "wine", "water glass"]
+        },
+        "advanced": {
+          "tableStyle": ["wood", "marble", "minimal"],
+          "extras": ["napkin", "beans", "none"]
+        }
+      },
+      "utility": {
+        "core": {
+          "environment": ["kitchen", "bathroom", "workspace"],
+          "usage": ["in use", "ready state"]
+        },
+        "advanced": {
+          "clutterLevel": ["minimal", "natural", "busy"]
+        }
+      },
+      "serveware": {
+        "core": {
+          "placement": ["center dish", "dining setup", "side arrangement"],
+          "foodContext": ["with food", "minimal garnish", "empty"]
+        },
+        "advanced": {
+          "diningStyle": ["luxury", "casual", "rustic"]
+        }
+      }
+    },
+    "global": {
+      "lighting": ["soft studio", "natural daylight", "dramatic shadows", "warm ambient", "high contrast"],
+      "camera": ["macro close-up", "portrait 85mm", "wide angle", "product flat-lay", "medium shot"],
+      "mood": ["elegant", "cozy", "bold", "clean", "artistic"]
+    },
+    "output": {
+      "core": {
+        "aspectRatio": ["1:1", "4:5", "3:4", "16:9", "9:16"],
+        "resolution": ["standard", "high", "ultra"],
+        "zoom": ["extreme close-up", "close-up", "medium shot", "wide shot"]
+      },
+      "advanced": {
+        "composition": ["centered product", "rule of thirds", "close crop", "wide composition"],
+        "depthOfField": ["strong blur", "moderate blur", "everything sharp"],
+        "colorStyle": ["natural colors", "warm tones", "cool tones", "high contrast", "muted"],
+        "sharpness": ["soft", "balanced", "ultra sharp"],
+        "backgroundIntensity": ["clean minimal", "slight context", "rich environment"],
+        "shadowStyle": ["soft shadow", "natural shadow", "hard shadow", "no visible shadow"],
+        "outputFormat": ["JPEG", "PNG", "Web-ready"]
+      }
+    }
+  }
+}
